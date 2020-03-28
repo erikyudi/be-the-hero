@@ -1,0 +1,36 @@
+Aula 1
+Criar pasta ir até a pasta
+
+parte nodejs
+npm init -y
+npm install express
+
+parte reactjs
+npm create-react-app frontend
+npm start
+
+Aula 2
+get -> qdo queremos retornar alguma informação
+post -> qdo queremos criar uma informação no backend
+put -> qdo queremos alterar uma informação no backend
+delete -> deletar uma informação no banckend
+
+Tipos de parametros:
+- Query Params: parametros nomeados enviados após o ?
+-Route Params: Parametros utilizados para identificar recursos exemplo users/1 na rota
+-Request Body: Corpo da requisicao, utilizado para criar ou alterar recursos
+
+Para não precisar ficar reiniciando a aplicacao dando node index.js
+npm install nodemon -D
+npm start -> vai ficar sempre em execução
+para cancelar ctrl+c
+
+instalando banco de dados
+npm install knex
+npm install sqlite3
+npx knex init -> cria arquivo com configurações do banco 
+
+utilizar migrations
+para criar as tabelas
+npx knex migrate:latest
+npx knex migrate:make create_incidents
