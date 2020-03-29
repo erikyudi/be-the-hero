@@ -34,3 +34,5 @@ utilizar migrations
 para criar as tabelas
 npx knex migrate:latest
 npx knex migrate:make create_incidents
+
+npm install react-router-dom //para instalar pacote de rotas do react
